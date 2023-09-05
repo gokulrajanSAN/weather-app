@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    background: #d2d3d2;
+    font-size: 45px;
+}
+
+.card{
+    margin:20px auto;
+    padding: 30px;
+    width: 90%;
+    border-radius: 25px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: white;
+    text-align: center;
+}
+
+.searchArea{
+    width: 100%;
+    display:block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchArea input{
+    padding: 10px;
+    border-radius: 20px;
+    height: 50px;
+    flex: 1;
+    border-color: rgb(5, 74, 95);
+    background-color: white;
+    font-size: 20px;
+}
+
+.searchArea button{
+    border-radius: 50px;
+    border-color: rgb(5, 74, 95);
+    background-color:white ;
+    width: 50px;
+    height: 50px; 
+    cursor: pointer;
+}
+
+.searchArea button img{
+    width: 30px;
+    height: 30px; 
+}
+
+.thunderImg{
+    width: 300px;
+    height: 300px;
+}
+
+.HumidityImg{
+    width: 300px;
+    height: 300px;
+}
+
+.windImg{
+    width: 300px;
+    height: 300px;
+}
+
+.details{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+}
+
+.col img{
+    width: 100px;
+    height: 100px;
+}
+
+.data{
+    font-size: 25px;
+}
