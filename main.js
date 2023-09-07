@@ -13,11 +13,11 @@ async function checkWeather(city) {
     console.log(data);
 
     document.querySelector(".city").innerHTML = data.name;
-    document.querySelector(".temp").innerHTML = Math.round(data.main.temp)  + "*C";
+    document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "*C";
     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
     document.querySelector(".windSpeed").innerHTML = data.wind.speed + "kmph";
-}   
+}
 
-searchBtn.addEventListener("click", ()=>{
+searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 })
